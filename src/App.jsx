@@ -4,13 +4,16 @@ import viteLogo from '/vite.svg'
 import './global.styles.scss'
 import Footer from './Components/Footer'
 import MainPage from './Pages/mainPage'
+import StateHome from './Pages/stateHome'
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div>
-      <MainPage/>
-      <Footer/>
+      {/* <MainPage/>
+      <Footer/> */}
+     <StateHome/>
     </div>
   )
 }
