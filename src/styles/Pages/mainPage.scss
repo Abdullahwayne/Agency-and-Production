@@ -1,3 +1,183 @@
-.main{
-    background-color: red;
+.container {
+  display: flex;
+  &-one {
+    background-image: url("../../assets/main-left.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+    span {
+      padding-top: 10rem;
+      color: #DCDCDC		;
+      font-size: 30px;
+      font-weight: 400;
+      padding-right: 10rem;
+    }
+    h1{
+        font-size: 60px;
+        color: white;
+        font-weight: 600;
+      padding-right: 10rem;
+
+    }
+  }
+  &-two {
+    background-image: url("../../assets/main-right.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins';
+    span {
+      padding-top: 10rem;
+      color: #DCDCDC		;
+      font-size: 30px;
+      font-weight: 400;
+      padding-left: 10rem;
+
+    }
+    h1{
+        font-size: 60px;
+        color: white;
+        font-weight: 600;
+      padding-left: 10rem;
+
+    }
+  }
 }
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {}
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {}
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .container {
+        display: flex;
+        &-one {
+          background-image: url("../../assets/main-left.jpg");
+          background-size: cover;
+          width: 50%;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          font-family: 'Poppins';
+          span {
+            padding-top: 10rem;
+            color: #DCDCDC		;
+            font-size: 30px;
+            font-weight: 400;
+            padding-right: 1rem;
+          }
+          h1{
+              font-size: 60px;
+              color: white;
+              font-weight: 600;
+            padding-right: 1rem;
+      
+          }
+        }
+        &-two {
+          background-image: url("../../assets/main-right.jpg");
+          background-size: cover;
+          height: 100vh;
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          font-family: 'Poppins';
+          span {
+            padding-top: 10rem;
+            color: #DCDCDC		;
+            font-size: 30px;
+            font-weight: 400;
+            padding-left: 1rem;
+      
+          }
+          h1{
+              font-size: 60px;
+              color: white;
+              font-weight: 600;
+            padding-left: 1rem;
+      
+          }
+        }
+      }
+}
+@media only screen and (max-width: 768px) and (min-width: 280px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        &-one {
+          background-image: url("../../assets/main-left.jpg");
+          background-size: cover;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          font-family: 'Poppins';
+          background-position: center;
+          span {
+            padding-top: 0rem;
+            color: #DCDCDC		;
+            font-size: 30px;
+            font-weight: 400;
+            padding-right: 0rem;
+          }
+          h1{
+              font-size: 45px;
+              color: white;
+              font-weight: 600;
+            padding-right: 0rem;
+      
+          }
+        }
+        &-two {
+          background-image: url("../../assets/main-right.jpg");
+          background-size: cover;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          background-position: center;
+
+          font-family: 'Poppins';
+          span {
+            padding-top: 0rem;
+            color: #DCDCDC		;
+            font-size: 30px;
+            font-weight: 400;
+            padding-left: 0rem;
+      
+          }
+          h1{
+              font-size: 45px;
+              color: white;
+              font-weight: 600;
+            padding-left: 0rem;
+      
+          }
+        }
+      }
+      
+}
+@media only screen and (max-width: 428px) and (min-width: 375px) {}
+@media only screen and (max-width: 375px) and (min-width: 320px) {}
+@media only screen and (max-width: 320px) and (min-width: 280px) {}

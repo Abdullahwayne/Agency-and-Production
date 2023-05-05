@@ -11,10 +11,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+
+
+
 //PAGES
-@import url('./styles/Pages/mainPage.scss');
-@import url('./styles/Pages/stateHome.scss');
+@import url("./styles/Pages/mainPage.scss");
+// @import url("./styles/Pages/stateHome.scss");
+@import url('./styles/Pages/ourStudio.scss');
+@import url("./styles/Pages/stateHome.scss");
+@import url("./styles/Pages/prodHome.scss");
+@import url("./styles/Components/Button.scss");
+
 
 //COMPONENTS
+// @import url("./styles/Components/footer.scss");
 @import url('./styles/Components/footer.scss');
 @import url('./styles/Components/sidebar.scss');
