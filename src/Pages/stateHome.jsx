@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Sidebar from '../Components/Sidebar'
 import { FaBars } from 'react-icons/fa'
 import '../styles/Pages/stateHome.scss'
+import Footer from '../Components/Footer'
 
 function StateHome() {
   const [open, setOpen] = useState(false)
@@ -20,6 +21,7 @@ function StateHome() {
 
         <Sidebar open={open} />
       </div>
+      <Footer />
     </div>
   )
 }
