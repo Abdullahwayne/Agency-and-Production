@@ -1,6 +1,7 @@
 import React from "react";
 import '../Components/Button'
 import ButtonMain from "../Components/Button";
+import { Outlet } from "react-router-dom";
 function ProdHome() {
   return (
     <div className="prod-main">
