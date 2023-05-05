@@ -11,6 +11,7 @@ import OurStudio from "./Pages/OurStudio";
 import Company from "./Pages/Company";
 import Team from "./Pages/Team";
 import MenAndMountain from "./Pages/MenAndMountain";
+import Profile from "./Pages/Profile";
 // import Footer from './Components/Footer'
 // import MainPage from './Pages/mainPage'
 // import StateHome from './Pages/stateHome'
@@ -27,7 +28,8 @@ function App() {
         <Route path="/prod/studio" Component={OurStudio}/>
         <Route path="/prod/company" Component={Company} />
         <Route path="/prod/team" Component={Team} />
-        <Route path="/prod/mountain" Component={MenAndMountain} />
+        <Route path="/prod/films/mountain" Component={MenAndMountain} />
+        <Route path= "prod/profile" Component={Profile}/>
 
       </Routes>
 
