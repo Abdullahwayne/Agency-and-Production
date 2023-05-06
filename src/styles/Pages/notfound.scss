@@ -1,16 +1,7 @@
-
-  
 .not-found{
-background-color: red;
+  background-color: #000;
+ 
 }
- 
-  
-  
-  
- 
-  
-  
-  
   .top-header:before {
       background-image: url(https://1.bp.blogspot.com/-gxsOcYWghHA/Xp_izTh4sFI/AAAAAAAAU8s/y637Fwg99qAuzW9na_NT_uApny8Vce95gCEwYBhgL/s1600/header-footer-gradient-bg.png);
   }
@@ -83,18 +74,6 @@ background-color: red;
   
   
   
-  button {
-    border: none;
-    padding: 0;
-    font-size: 0;
-    line-height: 0;
-    background: none;
-    cursor: pointer;
-  }
-  
-  :focus {
-    outline: 0;
-  }
   
   .clearfix:before, .clearfix:after {
     content: "\0020";
@@ -126,7 +105,6 @@ background-color: red;
     width: 100%;
     height: 100%;
     text-align: center;
-    margin-top: 70px;
   }
   
   .error__overlay {
@@ -312,26 +290,26 @@ background-color: red;
   
   @keyframes move {
     0% {
-      transform: rotate(40deg);
+      transform: rotate(20deg);
     }
     50% {
-      transform: rotate(-40deg);
+      transform: rotate(-20deg);
     }
     100% {
-      transform: rotate(40deg);
+      transform: rotate(20deg);
     }
   }
   
   .cable {
     width: 8px;
       height: 248px;
-      background-image: linear-gradient(rgb(32 148 218 / 70%), rgb(193 65 25)), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+      background-image: linear-gradient(#181828, rgb(193 65 25)), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   }
   
   .cover {
     width: 200px;
     height: 80px;
-    background: #0bd5e8;
+    background: #c46c08;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     position: relative;
@@ -343,7 +321,7 @@ background-color: red;
     max-width: 200px;
     height: 20px;
     border-radius: 100%;
-    background: #08ffff;
+    background: #fb82058f;
     position: absolute;
     left: 0px;
     right: 0px;
@@ -354,31 +332,31 @@ background-color: red;
   .in-cover .bulb {
        width: 50px;
       height: 50px;
-      background-color: #08fffa;
+      background-color: #ff6600;
       border-radius: 50%;
       position: absolute;
       left: 0px;
       right: 0px;
       bottom: -20px;
       margin: 0px auto;
-      -webkit-box-shadow: 0 0 15px 7px rgba(0,255,255,0.8), 0 0 40px 25px rgba(0,255,255,0.5), -75px 0 30px 15px rgba(0,255,255,0.2);
-      box-shadow: 0 0 25px 7px rgb(127 255 255 / 80%), 0 0 64px 47px rgba(0,255,255,0.5), 0px 0 30px 15px rgba(0,255,255,0.2);
+      -webkit-box-shadow: 0 0 15px 7px #fb8205, 0 0 40px 25px #fb8205, -75px 0 30px 15px #fb8205;
+      box-shadow: 0 0 25px 7px #fb8205, 0 0 64px 47px #fb8205, 0px 0 30px 15px #fb8205;
   }
   
   
   .light {
         width: 200px;
       height: 0px;
-      border-bottom: 900px solid rgb(44 255 255 / 24%);
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
+      border-bottom: 700px solid #fb800565;
+    border-left: 50px solid #fb800565;
+    border-right: 50px solid #fb800565;
       position: absolute;
       left: 0px;
       right: 0px;
       top: 270px;
       margin: 0px auto;
       z-index: 1;
-      border-radius: 90px 90px 0px 0px;
+      border-radius: 50px 50px 0px 0px;
   }
   /* 2.3. END Lamp */
   /***********************************

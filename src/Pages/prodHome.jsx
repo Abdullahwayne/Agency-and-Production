@@ -6,7 +6,7 @@ function ProdHome() {
   return (
     <div className="prod-main">
        <div className="buttons-parent">
-        <ButtonMain name="What we do" link="/prod/portfolio"/>
+        <ButtonMain name="What we do" link="/prod/services"/>
         <ButtonMain name="Press" link="/prod/press"/>
         <ButtonMain name="Our Studios" link="/prod/studio"/>
         <ButtonMain name="The Team" link="/prod/team"/>
