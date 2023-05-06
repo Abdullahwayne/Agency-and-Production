@@ -2,10 +2,9 @@ import React from 'react';
 
 const NotFound = () => {
     return (
-        <div>
+        <div className='not-found'>
         <a href="https://codepen.io/uiswarup/full/yLzypyY" target="_blank">
-        <header class="top-header">
-      </header>
+       
       
       <div>
         <div class="starsec"></div>
