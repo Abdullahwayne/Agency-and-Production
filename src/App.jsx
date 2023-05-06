@@ -19,6 +19,11 @@ import PennyMovie from "./Pages/pennyMovie";
 import RewardsProgram from "./Pages/rewardsProgram";
 import SiteMap from "./Pages/siteMap";
 import PostProduction from "./Pages/postProduction";
+import Company from "./Pages/Company";
+import Team from "./Pages/Team";
+import MenAndMountain from "./Pages/MenAndMountain";
+import Profile from "./Pages/Profile";
+import NotFound from "./Pages/NotFound";
 // import Footer from './Components/Footer'
 // import MainPage from './Pages/mainPage'
 // import StateHome from './Pages/stateHome'
@@ -40,8 +45,14 @@ function App() {
         <Route path="/prod/films/deor" Component={Deor}/>
         <Route path="/prod/films/penny/pennymovie" Component={PennyMovie}/>
         <Route path="/prod/rewards" Component={RewardsProgram}/>
-        <Route path="/prod/sitemap" Component={SiteMap}/>
+        <Route path="/prod/map" Component={SiteMap}/>
         <Route path="/prod/studio/production" Component={PostProduction}/>
+        <Route path="/prod/company" Component={Company} />
+        <Route path="/prod/team" Component={Team} />
+        <Route path="/prod/films/mountain" Component={MenAndMountain} />
+        <Route path= "prod/profile" Component={Profile}/>
+        <Route path="*" Component={NotFound}/>
+
       </Routes>
 
    

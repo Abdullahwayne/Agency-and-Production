@@ -1,0 +1,209 @@
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 40px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 3px;
+      padding-left: 20px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 94vh;
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1024px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 30px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 2px;
+      padding-left: 10px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 92vh;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 30px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 2px;
+      padding-left: 10px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 92vh;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 428px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 30px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 2px;
+      padding-left: 10px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 92vh;
+  }
+}
+
+@media only screen and (max-width: 428px) and (min-width: 375px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 30px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 2px;
+      padding-left: 10px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 92vh;
+  }
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 30px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 2px;
+      padding-left: 10px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 90vh;
+  }
+}
+
+@media only screen and (max-width: 320px) and (min-width: 280px) {
+  .sidebar {
+    transform: translate(-100%);
+    transition: all 0.2s linear;
+
+    &-li-names {
+      font-size: 30px;
+      color: white;
+      font-family: poppins;
+      background-color: #3b4e868a;
+      margin-bottom: 2px;
+      padding-left: 10px;
+    }
+
+    &-li-names:hover {
+      background-color: #3b4e86;
+      transition: all 0.3s linear;
+      transform: translate(10%);
+    }
+  }
+
+  .show-sidebar {
+    transform: translate(0%);
+    transition: all 0.2s linear;
+    background-color: #0000009c;
+    width: 100%;
+    height: 90vh;
+  }
+}

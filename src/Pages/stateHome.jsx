@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Sidebar from '../Components/Sidebar'
+import { FaBars } from 'react-icons/fa'
+import '../styles/Pages/stateHome.scss'
 
-  function StateHome() {
+function StateHome() {
+  const [open, setOpen] = useState(false)
+
   return (
-    <div className='stateHomemain'>stateHome</div>
+    <div className='statehomemain'>
+      <div className='statehomemain-sidebar-Container'>
+        <div className='statehomemain-sidebar-Container-btn-container'>
+          <button
+            onClick={() => setOpen(!open)}
+            className='statehomemain-sidebar-Container-btn-container-sidebar-toggle'
+          >
+            <FaBars size={40} />
+          </button>
+        </div>
+
+        <Sidebar open={open} />
+      </div>
+    </div>
   )
 }
 

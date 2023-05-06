@@ -6,15 +6,18 @@
   box-sizing: border-box;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
-//   font-family: Poppins;
+  //   font-family: Poppins;
 }
 
-// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
 
 
 //PAGES
 @import url("./styles/Pages/mainPage.scss");
 // @import url("./styles/Pages/stateHome.scss");
+@import url("./styles/Pages/company.scss");
 @import url('./styles/Pages/ourStudio.scss');
 @import url("./styles/Pages/stateHome.scss");
 @import url("./styles/Pages/prodHome.scss");
@@ -28,5 +31,11 @@
 @import url("./styles/Pages/rewardsProgram.scss");
 @import url("./styles/Pages/siteMap.scss");
 @import url("./styles/Pages/postProduction.scss");
+@import url("./styles/Pages/team.scss");
+@import url("./styles/Pages/manAndMountain.scss");
+@import url("./styles/Pages/profile.scss");
+@import url('./styles/Pages/notfound.scss');
 //COMPONENTS
 // @import url("./styles/Components/footer.scss");
+@import url('./styles/Components/footer.scss');
+@import url('./styles/Components/sidebar.scss');
