@@ -4,4 +4,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;   
+     display: flex;
+        justify-content: center;
+        align-items: end;
+
+    &-buttons{
+       display: flex;
+       padding: 30px;
+       gap: 10px;
+
+    }
 }
