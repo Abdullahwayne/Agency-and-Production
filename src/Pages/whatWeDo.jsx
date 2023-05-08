@@ -1,6 +1,6 @@
 import React from 'react'
 
-function WhatWeDo() {
+function  WhatWeDo() {
   return (
     <div className='what-main'></div>
   )
