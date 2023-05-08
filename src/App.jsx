@@ -9,7 +9,7 @@ import './global.styles.scss'
 import ProdHome from './Pages/prodHome'
 // import Press from './Pages/Press'
 // import WhatWeDo from './Pages/whatWedo'
-import WhatWeDo from "./Pages/whatWedo";
+import WhatWeDo from "./Pages/WhatWeDo";
 import Press from "./Pages/Press";
 import OurFilms from "./Pages/ourFilms";
 import OnePenny from "./Pages/onePenny";
