@@ -43,6 +43,7 @@ function App() {
     {isLoading ? (
         <Loader />
       ) : (
+        <div className='main-parent'>
         <Routes>
         <Route path="/" Component={MainPage} />
         <Route path="/state" Component={StateHome}/>
@@ -77,6 +78,7 @@ function App() {
         <Route path='prod/profile' Component={Profile} />
         <Route path='*' Component={NotFound} />
       </Routes>
+      </div>
       )}
       
       <div>
