@@ -57,7 +57,7 @@ function App() {
             <Route path="/prod/team" Component={Team} />
             <Route path="/prod/films/mountain" Component={MenAndMountain} />
             <Route path="prod/profile" Component={Profile} />
-            <Route path="*" Component={NotFound} />
+            <Route path="*" Component={NotFound} /> 
           </Routes>
         </div>
       )}
