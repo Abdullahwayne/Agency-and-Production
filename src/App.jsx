@@ -7,8 +7,7 @@ import StateHome from './Pages/stateHome'
 import { Route, Routes } from 'react-router-dom'
 import './global.styles.scss'
 import ProdHome from './Pages/prodHome'
-// import Press from './Pages/Press'
-// import WhatWeDo from './Pages/whatWedo'
+
 import WhatWeDo from "./Pages/WhatWeDo";
 import Press from "./Pages/Press";
 import OurFilms from "./Pages/ourFilms";
@@ -26,10 +25,7 @@ import MenAndMountain from './Pages/MenAndMountain'
 import Profile from './Pages/Profile'
 import { useEffect, useState } from 'react'
 import Loader from './Components/Loader'
-// import Footer from './Components/Footer'
-// import MainPage from './Pages/mainPage'
-// import StateHome from './Pages/stateHome'
-// import prodHome from './Pages/prodHome'
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
