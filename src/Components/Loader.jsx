@@ -5,7 +5,7 @@ const Loader = () => {
     return (
         <div>
             <main>
-	<div class="tower">
+	<div class="tower fade-in-out">
 		<div class="tower__group">
 			<div class="tower__brick-layer tower__brick-layer--4">
 				<div class="tower__brick tower__brick--0">
@@ -281,7 +281,7 @@ const Loader = () => {
 			</div>
 		</div>
 	</div>
-	<div class="message">
+	<div class="message fade-in-out">
 		<p class="message__line">Loading…</p>
 		<p class="message__line">Sorting out the pieces…</p>
 		<p class="message__line">Assembling one brick at a time…</p>
