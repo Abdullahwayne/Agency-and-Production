@@ -66,8 +66,13 @@ function App() {
         <Route path='prod/profile' Component={Profile} />
         <Route path='*' Component={NotFound} />
       </Routes>
+      <div>
       <Footer/>
+
+      </div>
+
     </div>
+    
   )
 }
 
