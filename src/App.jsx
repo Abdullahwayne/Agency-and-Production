@@ -63,7 +63,6 @@ function App() {
         <Route path="/prod/films/mountain" Component={MenAndMountain} />
         <Route path= "prod/profile" Component={Profile}/>
         <Route path="*" Component={NotFound}/>
-
         <Route path='/' Component={MainPage} />
         <Route path='/state' Component={StateHome} />
         <Route path='/prod' Component={ProdHome} />
