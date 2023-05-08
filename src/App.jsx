@@ -8,7 +8,6 @@ import { Route, Routes } from 'react-router-dom'
 import './global.styles.scss'
 import ProdHome from './Pages/prodHome'
 
-import WhatWeDo from "./Pages/WhatWeDo";
 import Press from "./Pages/Press";
 import OurFilms from "./Pages/ourFilms";
 import OnePenny from "./Pages/onePenny";
@@ -25,6 +24,7 @@ import MenAndMountain from './Pages/MenAndMountain'
 import Profile from './Pages/Profile'
 import { useEffect, useState } from 'react'
 import Loader from './Components/Loader'
+import WhatWeDo from './Pages/whatWeDo'
 
 
 function App() {
