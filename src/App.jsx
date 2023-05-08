@@ -24,15 +24,26 @@ import OurStudio from './Pages/OurStudio'
 import Team from './Pages/Team'
 import MenAndMountain from './Pages/MenAndMountain'
 import Profile from './Pages/Profile'
+import { useEffect, useState } from 'react'
+import Loader from './Components/Loader'
 // import Footer from './Components/Footer'
 // import MainPage from './Pages/mainPage'
 // import StateHome from './Pages/stateHome'
 // import prodHome from './Pages/prodHome'
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
   return (
     <div>
-      <Routes>
+    {isLoading ? (
+        <Loader />
+      ) : (
+        <Routes>
         <Route path="/" Component={MainPage} />
         <Route path="/state" Component={StateHome}/>
         <Route path="/prod" Component={ProdHome} />
@@ -66,6 +77,8 @@ function App() {
         <Route path='prod/profile' Component={Profile} />
         <Route path='*' Component={NotFound} />
       </Routes>
+      )}
+      
       <div>
       <Footer/>
 

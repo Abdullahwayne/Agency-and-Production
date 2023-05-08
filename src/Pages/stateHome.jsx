@@ -21,7 +21,6 @@ function StateHome() {
 
         <Sidebar open={open} />
       </div>
-      <Footer />
     </div>
   )
 }
