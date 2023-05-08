@@ -463,6 +463,24 @@
     .error__nav {
       margin-top: 20px;
     }
+    .e-nav__link:before {
+        content: '';
+        height: 200px;
+        background: #212121;
+        position: absolute;
+        top: 70px;
+        right: 70px;
+        width: 260px;
+        -webkit-transition: all .3s;
+        transition: all .3s;
+        -webkit-transform: rotate(30deg);
+                transform: rotate(30deg);
+      }
+      .light {
+      
+      border-bottom: 300px solid #fb800565;
+    
+  }
   }
   @media(min-width:1401px){
     .lamp {
