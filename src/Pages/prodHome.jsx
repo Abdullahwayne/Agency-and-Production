@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import '../Components/Button'
 import ButtonMain from "../Components/Button";
 import { Outlet } from "react-router-dom";
+import Loader from "../Components/Loader";
 function ProdHome() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  }, []);
   return (
-    <div className="prod-main">
+    <div>
+    {isLoading ? <Loader/> :( <div className="prod-main">
        <div className="buttons-parent">
         <ButtonMain name="What we do" link="/prod/services"/>
         <ButtonMain name="Press" link="/prod/press"/>
@@ -19,6 +27,8 @@ function ProdHome() {
 
 
 
+    </div>) }
+   
     </div>
   )
 }

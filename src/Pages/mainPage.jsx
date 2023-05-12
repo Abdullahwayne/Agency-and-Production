@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import '../styles/Pages/mainPage.scss'
 import { Link } from "react-router-dom";
+import Loader from "../Components/Loader";
 
 const MainPage = () => {
+   const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4000);
+  }, []);
   return (
-    <div className="container">
+    <div>
+      {isLoading ? (<Loader/>) : (<div className="container">
       <div className="container-one">
         <Link style={{textDecoration:"none"}} to="/state"><span>Real Estate </span></Link>
         <Link style={{textDecoration:"none"}} to="/state">
@@ -19,6 +27,8 @@ const MainPage = () => {
         <h1> Production</h1>
         </Link>
       </div>
+    </div>)}
+    
     </div>
   );
 };

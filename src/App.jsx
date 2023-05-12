@@ -31,13 +31,11 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 4000);
+    }, 2000);
   }, []);
   return (
     <div>
-      {isLoading ? (
-        <Loader />
-      ) : (
+      
         <div className="main-parent">
           <Routes>
             <Route path="/" Component={MainPage} />
@@ -60,7 +58,7 @@ function App() {
             <Route path="*" Component={NotFound} /> 
           </Routes>
         </div>
-      )}
+      
 
       <div>
         <Footer />
