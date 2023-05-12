@@ -1,0 +1,47 @@
+.header-main {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 50;
+    &-flex {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        &-backbutton{
+            &-back{
+                width: auto;
+                    padding: 0;
+                    border-radius: 100px;
+                    letter-spacing: 0;
+                    background-color: transparent !important;
+                    box-shadow: none;
+                    display: flex;
+                    align-items: center;
+                    
+        }
+    }
+        &-login-signup {
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            &-login,&-signup{
+                width: auto;
+                padding: 0;
+                border-radius: 100px;
+                letter-spacing: 0;
+                background-color: transparent !important;
+                box-shadow: none;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+  
+}

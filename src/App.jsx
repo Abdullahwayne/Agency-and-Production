@@ -25,7 +25,9 @@ import Profile from "./Pages/Profile";
 import { useEffect, useState } from "react";
 import Loader from "./Components/Loader";
 import WhatWeDo from "./Pages/whatWeDo";
-
+import Login from './Pages/Login';
+import Signup from "./Pages/Signup";
+import Header from "./Components/Header";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -35,7 +37,12 @@ function App() {
   }, []);
   return (
     <div>
-      
+      <div>
+        <Header/>
+      </div>
+      {isLoading ? (
+        <Loader />
+      ) : (
         <div className="main-parent">
           <Routes>
             <Route path="/" Component={MainPage} />
@@ -56,15 +63,18 @@ function App() {
             <Route path="/prod/films/mountain" Component={MenAndMountain} />
             <Route path="prod/profile" Component={Profile} />
             <Route path="*" Component={NotFound} /> 
+            <Route path="/login" Component={Login}/>
+            <Route path="/signup" Component={Signup}/>
           </Routes>
         </div>
-      
+      )
+      }
 
       <div>
         <Footer />
       </div>
     </div>
-  );
+  )
 }
 
 export default App;
