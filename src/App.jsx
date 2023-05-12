@@ -27,6 +27,7 @@ import Loader from "./Components/Loader";
 import WhatWeDo from "./Pages/whatWeDo";
 import Login from './Pages/Login';
 import Signup from "./Pages/Signup";
+import Header from "./Components/Header";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -36,6 +37,9 @@ function App() {
   }, []);
   return (
     <div>
+      <div>
+        <Header/>
+      </div>
       {isLoading ? (
         <Loader />
       ) : (
